@@ -1,13 +1,10 @@
 ---
-map_height_y: 1722
-map_width_x: 1722
+map_height_y: 2048
+map_width_x: 1642
 scale_pixels: 268
 scale_pixels_range: 25
 mapCalc1: 0.09328358208955223
 ---
-This is the root note in the Lathernia folder
-
-Capital: [Halrani](/Lathernia/Halrani/Halrani.md)
 
 > [!NOTE]- Quick Calculator  
 > Map Height in Pixels: `INPUT[number:map_height_y]`  
@@ -21,13 +18,13 @@ Capital: [Halrani](/Lathernia/Halrani/Halrani.md)
 
 
 ```leaflet  
-id: Lathernia ### Must be unique with no spaces  
-image: [[lathernia.png]] ### Link to the map image file. Do not add a ! in front of the image  
-bounds: [[0,0], [1722, 1722]] ### Size of the map in px Height_y, Width_x. Ignore 0,0  
+id: MapCalcExample ### Must be unique with no spaces  
+image: [[Map - Regional map of Lampoteuo.png]] ### Link to the map image file. Do not add a ! in front of the image  
+bounds: [[0,0], [2048, 1642]] ### Size of the map in px Height_y, Width_x. Ignore 0,0  
 height: 850px ### Size of the leaflet embed in px on your screen  
 width: 95% ### Size of the leaflet embed in your note  
-lat: 861 ### To center the map, make this half of the map height.  
-long: 861 ### To center the map, make this half of the map width.  
+lat: 1024 ### To center the map, make this half of the map height.  
+long: 821 ### To center the map, make this half of the map width.  
 minZoom: -1.5 ### Controls how far away from the map you can zoom out. Hover over the target icon to see the current level.  
 maxZoom: 1 ### Controls how far towards the map you can zoom in. Hover over the target icon to see the current level.  
 defaultZoom: -1 ### Sets the default zoom level when the map loads. Hover over the target icon to see the current level.  
